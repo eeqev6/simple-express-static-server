@@ -3,7 +3,7 @@ var express = require("express"),
     bodyParser = require('body-parser'),
     errorHandler = require('errorhandler'),
     methodOverride = require('method-override'),
-    hostname = process.env.HOSTNAME || ' eeqev.vdtapp.com',
+    hostname = process.env.HOSTNAME || ' localhost',
     port = parseInt(process.env.PORT, 10) || 5000,
     publicDir = process.argv[2] || __dirname + '/public';
 
